@@ -1,0 +1,296 @@
+1. b
+2. c
+3. d
+4. d
+5. c
+6. R
+7. d
+8. a
+9. c
+10. b
+11. c
+12. a
+13. c
+14. b 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 1.Constructor
+     It is Set or block of Code where it is exectued whenever an object is created.
+    It is special method type that can used to intialize the object.
+    It call default constructor then there is no constructor.
+Constructor having some rules:
+1.constructor name should be same as class name.
+2.There is on explicit retrun type.
+3.should not use static and final.
+ eg:  
+   public class Student{
+      int id;
+string studentName;
+
+public Student{
+System.out.println("student details ");
+System.out.println(id);
+System.out.println(studentName);
+}
+ 
+public Student(int id1, String StudentName1){
+System.out.println("student details is invalid");
+id1=id;
+studentName1=studentName;
+
+}
+public static void main (String[] args){
+Student student = new Student(022,"priya")
+System.out.println(student.id1);
+System.out.println(student.studentName1);
+}
+}
+  
+----------------------------------------------------------------------------------------------------------------------------------------------
+2. Types of constructor:
+
+a. Default constructor : A constructor is called as Default constructor  when it does not have any parameters is called as default constructor.
+ 
+b. Parameterised constructor : A paramterised constructor which is specifies the number of parametersied constructors.
+why use : Parameterised constructor is used to provide different values to distinct objects.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. Object : 
+     Any world entity which has states and behaviour is called as object.
+     object is also a instances of a class .
+     ex: class college{
+        string collegeName;
+        int noOfStudent;
+        }
+public Fan(String collegeName, int noOfStudent){
+this.collegeName=collegeName;
+this.noOfStudent=noOfStudent;
+}
+
+      public static void techers(){
+}
+public static void main(String[] args){
+System.out.print(noofStudents):
+}
+
+-------------------------------------------------------------------------------------------------------------
+ 4. Class:
+    A Class is used to defined as blueprint or design that can be used as to create a instances objects.
+    A class is also called as instances of object.
+
+eg: class Fan{
+    String brand;
+ int noOfWings;
+ }
+public Fan(String brand, int noOfWings){
+this.brand=barnd;
+this.noOfWings;
+}
+public static void Fan(){
+}
+public static void main(String[] args){
+Fan fan = new Fan("LG", 3);
+System.out.print(Fan.noOfWings);
+}
+
+---------------------------------------------------------------------------------------------------
+5. Methodoverloading :
+         The Multiple method haiving same method name but differenitate in its parametres.
+         the Methodoverloading also called as complie time polymorphism.
+some methods are:
+ 1.changing the no. of parameters.
+ 2.changing the datatypes of parameters.
+ 3.changing the order of parameters.
+
+  egs: multiply (10 , 20,30);
+       multiply((byte)40,(float)3.4f);
+       multiply((float)3.4f,(byte)40) ;
+---------------------------------------------------------------------------------------------------------------------  
+
+6. Vraibles :
+      It is container to store value while where java program is exectued.
+   Variables is also keep changing the values.
+types of variables:
+local varibles : variables are declared inside the body of method .
+instance or class: variables are declared inside class name but outside the body of method .
+eg:
+
+int totalNoOfStudents=10;
+totalNoOfStudents=20;
+System.out.println(totalNoOfStudents);
+-------------------------------------------------------------------------------------------------------------------
+7. this keywords is used to constructor where to differentate between the class.
+  this keyword is method .
+eg: class Student
+   int id;
+public Student(int id){
+this.id=id;
+}
+-------------------------------------------------------------------------------------------------------------------------
+8. String :
+            String is sequence of characters.in java string is method name to represent as sequences of characters.
+            string is  class, String is immutable.
+            eg:
+
+                 String bankName="SBI";
+                 String branch ="Hubli";
+                
+
+        
+                   
+-----------------------------------------------------------------------------------------------------------
+9. Methods string of class:
+         1. isuppercase() is used letters are in correct lowercase to uppercase .
+         2. islowecase() is used letters are in correct uppercase to lowecase.
+         3. comparetoigronecase() is used corect the  spaces between in letters are in comparetoigronecase.
+         4. endwith() is used correct last word letters are changed.
+         5. replace() is used to the  correct replaced the letters.
+
+-----------------------------------------------------------------------------------------------------------------------
+ 10. Immutable:
+            String are in immutable becz the string are cannot change the values
+            String having the same calss name.
+        
+
+
+----------------------------------------------------------------------------------------------------------------------
+Programming:
+
+
+
+1.   
+        public calss student{
+          int id;
+          String studentName;
+          float cgpa;
+          
+
+ public Student (int id, String studentName, float cgpa){
+this.id=id;
+this.studentName=studentName;
+}
+
+public static void main(String[] args){
+Student student = new Student(022, "priya",7.9f){
+System.out.println(student.id);
+System.out.println(student.studentName);
+System.out.println(student.cgpa);
+}
+}
+
+
+
+2. 
+
+
+ public class Test{
+public staic void main(String[] args)
+  class Fan{  
+ String brand;
+ int noOfWings;
+ }
+
+public Fan(String brand, int noOfWings){
+this.brand=barnd;
+this.noOfWings;
+}
+public static void Fan(){
+}
+
+public Fan{
+Fan fan = new Fan("LG", 3);
+System.out.print(fan.noOfWings);
+System.out.println(fan.noOfWings);
+}
+}
+
+
+
+
+3. 
+i.
+ public Class Fish{
+       String fishName();
+       boolean isliveinsea();
+       
+
+      public static void main(String[] args){
+              swimings();
+              
+      }
+public static void swimings(){
+}
+}
+
+
+ii. 
+
+ public class Camera{
+  int screenSize();
+  String brand();
+  int price();
+      }
+public static void main (String[] args){
+     voltages();
+     capaturepictures();
+
+      }
+public static void voltages(){
+}
+public static void  capaturepictures(){
+}
+camera camera=new camera(10,"Mi",20000){
+System.out.println(camera.screenSize);
+}
+
+
+iii. 
+
+public class HeadPhones{
+
+  boolean issoundgood();
+  String brand();
+  int price();
+      }
+public static void main (String[] args){
+     listening();
+     phonecalls();
+
+      }
+public static void voltages(){
+}
+public static void  capaturepictures(){
+}
+ HeadPhones headphones=new HeadPhones(true,"Mi",2000){
+System.out.println(headphones.issoundgood);
+}
+
+
+
+4. 
+
+public class Array{
+public static void main(String[] args){
+int[] totalOfStudents={10,20,30};
+char[] vowels={'a','e','i'};
+System.out.println(totalOfStudents[0]);
+int[] studentRollNo = new int[4];
+     studentRollNo[0]=[01];
+     studentRollNo[1]=[02];
+     studentRollNo[2]=[03];
+     studentRollNo[3]=[04];
+
+for(int i=4; i>=studentRollNo.length; i--){
+System.out.println(studentRollNo[i]);
+}
+}
+
+
+
+
+
+
+
+
