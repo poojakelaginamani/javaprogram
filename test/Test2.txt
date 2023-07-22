@@ -17,32 +17,23 @@ method paramters is used to information passed in method as paramters.
    
 
 
-7 . To achieve compile time polymorphism for method overloading  
-    class Shapes {
-  public void area() {
-    System.out.println("The formula for area of ");
-  }
-}
-class Triangle extends Shapes {
-  public void area() {
-    System.out.println("Triangle is ½ * base * height ");
-  }
-}
-class Circle extends Shapes {
-  public void area() {
-    System.out.println("Circle is 3.14 * radius * radius ");
-  }
-}
-class ShapesRunner {
-  public static void main(String[] args) {
-    Shapes myShape = new Shapes();  
-    Shapes myTriangle = new Triangle(); 
-    Shapes myCircle = new Circle();  
-    myShape.area();
-    myTriangle.area();
-    myShape.area();
-    myCircle.area();
-  }
+7 .
+ To achieve compile time polymorphism for method overloading  
+    it changing the order of parameters
+    it changing the datatypes of parameters.
+    it changing the number of parameters
+Eg:
+     public class MethodOverloading{
+       multiply(10,12,13);
+       multiply((byte)20,(float)11);
+       multiply((double)40.8d,34);
+public static void main (String[] args){
+      static void multiply(int num1,int num2,int num3);
+       num4=num1+num2+num3;
+return num4;
+static void multiply(byte num1,float num2){
+       num4=num1+num2;
+return num4;
 }
 
 
