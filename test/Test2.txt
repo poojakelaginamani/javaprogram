@@ -152,7 +152,7 @@ Enumeration why we used becz of to restricted the coming data.
      static block
      Constructor
      Methods
-     Inner classes
+     
 static variables :
           varibles is uesd to access with class name and it get memory only once in a class at time of class loading.
 static method: 
