@@ -58,7 +58,7 @@ why use : Parameterised constructor is used to provide different values to disti
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 3. Object : 
-     Any world entity which has states and behaviour is called as object.
+     Any  real world entity which has states and behaviour is called as object.
      object is also a instances of a class .
      ex: class college{
         string collegeName;
